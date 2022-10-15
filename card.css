@@ -1,0 +1,46 @@
+.card-container{
+margin: 30px;
+width: 30%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-header{
+background-color: rgb(4, 158, 150);
+}
+
+.card-header h2 {
+    text-align: center;
+    border-bottom: 1px solid;
+    border-color: aliceblue;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.card-icon{ 
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey; 
+    padding: 10px;
+}
+
+.card-destination{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.card-info p{
+ text-align: center;
+ 
+}
+.card-info{
+    padding-bottom: 8px;
+}
+
+.card-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
